@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test plot </title>
+    <!-- this links the styling sheet to this html -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Test</h1>
+    <svg id="scatterplot"></svg>
+    
+    <script src='https://d3js.org/d3.v7.min.js'></script>
+    <script src='test.js'></script>   
+</body>
+    <h1>This is "h1" HEADER: DS4200 Visualization</h1>
+    <h1 style="color:blue"> This is a inline styled HEADER: DS4200 Visualization</h1>
+    <h3>This is "h3" subtitle</h3>
+
+    <button id = 'navigateButton'> go to another page </button> 
+    <script>
+        const navigateButton = document.getElementById("navigateButton")
+        navigateButton.addEventListener('click', function(){
+            window.location.href = "http://www.northeastern.edu"
+        })
+    </script>
+
+    <p id = 'main'>This is a paragraph/ small text, can use to write anthing</p>
+    <p class = "A">Hello My Name Is Sally</p>
+    <p>Todays weather is nice!</p>
+
+    <p>this text is <b>bolded</b></p>
+    <p>this text is <i>italicized</i></p>
+
+    <p>the "a" tag is used for hyperlinks</p>
+    <a href="http://www.northeastern.edu">Please check out this website </a>
+    
+    <p></p>
+
+    <u1>
+        this is an unordered list! the list is bulleted 
+        to do list:
+        <li> Go to mornign classes</li>
+        <li> Go to the gym</li>
+        <li> Finish assignments</li>
+    </u1>
+
+    <p></p>
+
+    <u1>
+        this is an ordered list! the list is numbered
+        to do list:
+        <ol>
+        <li> Go to mornign classes</li>
+        <li> Go to the gym</li>
+        <li> Finish assignments</li>
+        </ol>
+    </u1>
+
+    <p>inserting images</p>
+
+</html>
