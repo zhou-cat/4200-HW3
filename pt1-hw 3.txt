@@ -1,1 +1,5 @@
 
+html link: https://zhou-cat.github.io/4200-HW3/
+
+My website, Hirono World, features a clean and visually appealing layout I designed to showcase the Hirono series and its creator. I customized my website by altering the background color of the website and text. Additionally, I played with two types of fonts from google fonts to customize the texts used in my website. Lastly, I included images and links to showcase the Hirono content of my website. 
+
