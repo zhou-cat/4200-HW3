@@ -1,0 +1,86 @@
+
+body {
+    background-color: gainsboro;
+  }
+
+#header{
+    align-items: center;
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+}
+
+#headerP{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+#hironoHead{
+    align-items: center;
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+}
+
+#hironoP{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sectionHead{
+    text-align: center;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#creatorP{
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+}
+
+#creatorImg{
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#list{
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+#blocktext{
+  margin: 50px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+#pg2hd{
+  text-align: center;
+  background-color: darkgrey
+}
+
+
